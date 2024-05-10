@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Daily Buzz</title>
+    <title>News Stream</title>
+    <link rel="icon" type="image/png" href="news-icon.png" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
@@ -13,13 +14,23 @@
   </head>
   <body>
     <div class="heading-container">
-      <h4>The Daily Buzz</h4>
+      <h4>News Stream</h4>
     </div>
     <div class="options-container"></div>
+    <!-- Search input and button -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter a topic..." />
+      <button id="searchButton" class="button-4" role="button">Search</button>
+    </div>
     <div class="container"></div>
     <!-- API Key -->
     <script src="api-keys.js"></script>
     <!-- Script -->
     <script src="script.js"></script>
+
+    <footer class="footer">
+      <p>&copy; 2024 News Stream. All rights reserved.</p>
+      <p>Made with <span style="color: red">&hearts;</span> by Priyansh</p>
+    </footer>
   </body>
 </html>
